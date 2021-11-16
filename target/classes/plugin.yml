@@ -1,0 +1,31 @@
+name: Expanding-World
+version: 1.0
+main: me.tristandasavage.expandingworld.Main
+author: TristanDaSavage
+api-version: 1.17
+
+permissions:
+  expandingworld.*:
+    expandingworld.start: true
+    expandingworld.stop: true
+    expandingworld.setcenter: true
+    default: op
+
+  expandingworld.start:
+    default: op
+  expandingworld.stop:
+    default: op
+  expandingworld.setcenter:
+    default: op
+  expandingworld.setsize:
+    default: op
+
+commands:
+  startexpand:
+    permission: expandingworld.start
+  stopexpand:
+    permission: expandingworld.stop
+  setexpandcenter:
+    permission: expandingworld.setcenter
+  setexpandsize:
+    permission: expandingworld.setsize

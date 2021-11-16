@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Expanding World:jar">
+    <output-path>$PROJECT_DIR$/../../Server/plugins</output-path>
+    <root id="archive" name="Expanding World.jar">
+      <element id="module-output" name="Expanding World" />
+    </root>
+  </artifact>
+</component>
