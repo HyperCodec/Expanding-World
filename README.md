@@ -1,4 +1,5 @@
 # Expanding World
+Based off of a Yeah Jaron video
 
 ### Setup
 Do /setexpandcenter at wherever you want to have it happen. Then, do /setexpandsize to set the starting size. When you are ready, do /startexpand. The world will then expand every day (whenever the time is 1).
